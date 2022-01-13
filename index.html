@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile Using Bulma Css</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header class="section has-background-link py-4 has-text-white">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <span class="icon">
+                        <i class="far fa-envelope"></i>
+                    </span>
+                    email@company.com
+                </div>
+                <div class="column">
+                    <span class="icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </span>
+                    +62 1234 1234
+                </div>
+                <div class="column has-text-right-tablet">
+                    <span class="icon">
+                        <i class="fas fa-headphones-alt"></i>
+                    </span>
+                    email@company.com
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="hero">
+        <div class="container">
+            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://bulma.io">
+                        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                    </a>
+
+                    <a role="button" class="navbar-burger burger has-text-white" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item has-text-white">
+                            Home
+                        </a>
+
+                        <a class="navbar-item has-text-white">
+                            Services
+                        </a>
+
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link has-text-white">
+                                More
+                            </a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item">
+                                    About
+                                </a>
+                                <a class="navbar-item">
+                                    Jobs
+                                </a>
+                                <a class="navbar-item">
+                                    Contact
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item">
+                                    Report an issue
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-info">
+                                    <strong>Sign up</strong>
+                                </a>
+                                <a class="button is-warning">
+                                    Log in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="columns pt-6">
+                <div class="column mt-6">
+                    <span class="icon has-text-warning">
+                        <i class="far fa-chart-bar fa-lg"></i>
+                    </span>
+                    <h1 class="is-size-1 has-text-white">
+                        Web Design <br>
+                        & App Development
+                    </h1>
+                    <p class="has-text-white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi, natus fugit nostrum sit
+                        voluptatum blanditiis nihil et id? Est fugiat, maxime exercitationem fugit numquam aut rem
+                        distinctio! Quo, nesciunt.
+                    </p>
+                    <button class="button is-warning mt-4">
+                        Learn More
+                    </button>
+                </div>
+                <div class="column mt-6">
+                    <img src="assets/images/hero.svg" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <div class="has-text-centered">
+                <h2 class="title is-2">Full Service Web Development Agency</h2>
+                <h6 class="subtitle is-6 has-text-gray">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis delectus deserunt ullam
+                </h6>
+            </div>
+            <div class="columns pt-6">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-code"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Web Development</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-paint-brush"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Web Design</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Mobile Development</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="far fa-chart-bar"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">SEO Specialist</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns pt-6">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-ad"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Digital Marketing</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-funnel-dollar"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Sales Funnel</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-cog"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Maintenance</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <span class="icon is-size-1 py-6 my-3">
+                                    <i class="fas fa-server"></i>
+                                </span>
+                            </div>
+                            <p class="title is-4">Hosting & Server</p>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dicta aliquid quod enim
+                                aspernatur esse commodi repellat, magnam molestiae quas odit temporibus mollitia magni
+                                facilis sunt? Aliquam sed perspiciatis earum.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="card-footer-item">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field is-grouped mt-6 is-flex service-buttons">
+                <p class="control">
+                    <button class="button is-warning">Free Consultation</button>
+                </p>
+                <p class="control">
+                    <button class="button is-info">Request Pricing</button>
+                </p>
+            </div>
+            <div class="columns mt-6 pt-5 logos is-relative">
+                <div class="column">
+                    <img src="assets/images/logo/logo-02.svg" alt="logo 1">
+                </div>
+                <div class="column">
+                    <img src="assets/images/logo/logo-05.svg" alt="logo 1">
+                </div>
+                <div class="column">
+                    <img src="assets/images/logo/logo-10.svg" alt="logo 1">
+                </div>
+                <div class="column">
+                    <img src="assets/images/logo/logo-13.svg" alt="logo 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-header has-background-warning">
+                            <p class="card-header-title">Free Consultation</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="field">
+                                <label for="name" class="label">Name</label>
+                                <p class="control">
+                                    <input type="text" name="name" id="name" placeholder="Name" class="input">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <label for="email" class="label">email</label>
+                                <p class="control">
+                                    <input type="email" name="email" id="email" placeholder="Email" class="input">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <label for="message" class="label">Message</label>
+                                <p class="control">
+                                    <input type="text" name="message" id="message" placeholder="message" class="input">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control">
+                                    <button class="button is-warning">Submit</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column has-text-white pt-6 pl-6">
+                    <span class="icon is-size-1 pb-6 my-3 has-text-grey-lighter">
+                        <i class="fas fa-quote-left"></i>
+                    </span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque magnam quis
+                        suscipit ex facere, incidunt a quibusdam sequi sed nobis iusto laudantium rem soluta obcaecati
+                        doloribus asperiores placeat! Voluptate!
+                    </p>
+                    <p class="has-text-weight-bold pt-3 is-size-4">John Smith</p>
+                    <span class="icon is-size-1 pt-6 pr-3 my-3 has-text-grey-lighter is-pulled-right">
+                        <i class="fas fa-quote-right"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
